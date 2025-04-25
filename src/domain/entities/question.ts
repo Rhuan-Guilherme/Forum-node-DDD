@@ -5,7 +5,7 @@ import { UniqueEntityID } from '../core/entities/unique-entity-id';
 
 interface QuestionProps {
   authorId: UniqueEntityID;
-  bestAnswerId: UniqueEntityID;
+  bestAnswerId?: UniqueEntityID;
   title: string;
   content: string;
   slug: Slug;
